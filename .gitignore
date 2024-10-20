@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore node_modules in the backend (if it exists in the future)
+backend/node_modules/
+
+# Ignore .env in the backend
+backend/.env
+
